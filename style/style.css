@@ -1,0 +1,549 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero{
+position: relative;
+}
+.hero-section{
+display: flex;
+width: 1300px;
+height: 646px;
+position: absolute;
+left: 20px;
+background: #0f0b24;
+border-radius: 30px;
+}
+
+.hero-title{
+position: absolute;
+width: 531px;
+height: 424px;
+left: 246px;
+top: 140px;
+}
+
+.hero-title > h1{
+position: absolute;
+width: 531px;
+height: 240px;
+top: 15px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 70px;
+line-height: 80px;
+/* or 114% */
+color: #FFFFFF;
+}
+
+.hero-title > p{
+position: absolute;
+width: 506px;
+height: 78px;
+top: 280px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #FFFFFF;
+}
+
+.hero-title > .hero-btn{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 16px 25px;
+gap: 10px;
+position: absolute;
+width: 187px;
+height: 56px;
+top: 400px;
+background: #DD0000;
+border: none;
+border-radius: 5px;
+transition: all 3s ease;
+}
+
+.hero-title > .hero-btn:hover{
+transform: scale(1.2);
+background-color: royalblue;
+}
+.hero-btn.btn{
+font-family: 'HelveticaNeue';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.hero-img > img{
+position: absolute;
+width: 400px;
+height: 563px;
+left: 801px;
+top: 83px;
+}
+
+/* blog-section  */
+
+.container{
+    width: 1300px;
+    position: relative;
+    left: 20px;
+    top: 750px;
+   
+}
+
+.blogs-btn{
+display: flex;
+flex-direction: column;
+align-items: center;   
+position: absolute;
+width: 312px;
+height: 300px;
+background: #161616;
+border-radius: 10px;
+}
+
+.blogs-btn > .match{
+position: absolute;
+width: 252px;
+height: 64px;
+border-radius: 10px;
+top: 30px; 
+}
+.blogs-btn > .group{
+position: absolute;
+width: 252px;
+height: 64px;
+top: 120px; 
+border-radius: 10px;
+}
+.blogs-btn > a{
+position: absolute;
+width: 252px;
+height: 64px;
+background-color: #DD0000;
+color: #FFFFFF;
+top: 210px; 
+
+border-radius: 10px;
+}
+.blogs-btn > a > .blog{
+position: absolute;
+width: 252px;
+height: 64px;
+background-color: #DD0000;
+color: #FFFFFF;
+border: none;
+border-radius: 10px; 
+}
+
+.blog-container{
+    width: 800px;
+    position: relative;
+    left: 325px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+   
+}
+
+.blog-container > .blogs{
+    box-shadow: 2px 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 20px;
+}
+
+.blogs-img > button{
+    margin: 20px;
+    width: 75px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #161616;
+}
+
+.blogs-img > p{
+width: 272px;
+margin-left: 20px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+color: #161616;
+}
+
+.icons-group{
+    display: flex;
+    margin-left: 20px;
+    gap: 40px;
+    padding: 20px 0px 20px 0px;
+}
+
+
+.icons-time{
+    display: flex;
+    gap: 15px;
+}
+
+.icons-chat{
+    display: flex;
+    gap: 15px;
+}
+
+
+.footer{
+width: 100%;
+height: 444px;
+position: relative;
+left: 0px;
+top: 900px;
+background: #161616;
+}
+
+.footer > h1{
+position: absolute;
+width: 95px;
+height: 60px;
+left: 640px;
+top: 100px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 60px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.footer > hr{
+position: absolute;
+width: 1100px;
+height: 0px;
+left: 120px;
+top: 200px;
+border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-second{
+position: absolute;
+left: 300px;
+top: 280px;
+}
+
+.footer-second ul{
+    display: flex;
+    gap: 30px;
+
+}
+
+.footer-second > ul > li{
+    list-style: none;
+}
+
+.footer-second > ul > li > a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;;
+}
+.media-icons{
+    display: flex;
+    gap: 80px;
+    position: absolute;
+    top: 80%;
+    left: 40%;
+}
+.media-icons > a{
+text-decoration: none;
+color: #FFFFFF;
+}
+.media-icons > a > i{
+font-size: 40px;
+transition: all 1s ease;
+}
+
+.media-icons > a > i:hover{
+    color: royalblue;
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+.hero-section{
+display: flex;
+flex-direction: column;
+width: 540px;
+height: 646px;
+position: absolute;
+left: 5px;
+background: #3104d3;
+border-radius: 30px;
+    }
+ .hero-title{
+position: absolute;
+width: 400px;
+height: 424px;
+left: 20px;
+top: 20px;
+      }
+.hero-title > h1{
+position: absolute;
+top: 35px;
+font-size: 52px;
+        }
+.hero-title > p{
+position: absolute;
+top: 250px;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #FFFFFF;
+}
+.hero-img > img{
+    position: absolute;
+    width: 200px;
+    height: 263px;
+    left: 301px;
+    top: 383px;
+    }
+.hero-title > .hero-btn{
+position: absolute;
+top: 420px;
+left: 30px;
+    }
+.container{
+        width: 540;
+        margin-top: 20%;
+        display: flex;
+        flex-direction: column;
+    }
+    .blogs-btn{
+        width: 530px;
+        height: 300px;   
+        position: absolute;
+        top: -80px;
+        left: -10px;
+        background: #161616;
+        border-radius: 20px;
+        }
+        .blog-container{
+            width: 540px;
+            position: relative;
+            left: -10px;
+            top: 280px;
+            display: grid;
+            grid-template-columns: repeat(1, 530px);  
+        }
+
+        .blogs-img > img{
+            width: 530px;
+        } 
+
+        .footer{
+            width: 100%;
+            height: 100vh;
+            position: relative;
+            left: 0px;
+            top: 1100px;
+            background: #161616;
+            }
+            
+            .footer > h1{
+            position: absolute;
+            left: 220px;
+            top: 100px;
+            font-size: 40px;
+            line-height: 60px;
+            color: #FFFFFF;
+            }
+            
+            .footer > hr{
+            position: absolute;
+            width: 400px;
+            height: 0px;
+            left: 80px;
+            top: 200px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            }
+            
+            .footer-second{
+            position: absolute;
+            left: 220px;
+            top: 230px;
+
+            }
+            
+            .footer-second ul{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            
+            }
+            
+            .media-icons{
+                display: flex;
+                gap: 80px;
+                position: absolute;
+                top: 70%;
+                left: 20%;
+            }
+            .media-icons > a{
+            text-decoration: none;
+            color: #FFFFFF;
+            }
+            
+            
+            
+}
+
+
+
+
+@media screen and (min-width: 577px) and (max-width: 977px) {
+    .hero-section{
+        display: flex;
+        flex-direction: column;
+        width: 950px;
+        height: 646px;
+        position: absolute;
+        left: 5px;
+        background: #3104d3;
+        border-radius: 30px;
+            }
+            .hero-title{
+                position: absolute;
+                left: 20px;
+                top: 40px;
+                }
+                
+                .hero-title > h1{
+                position: absolute;
+                width: 531px;
+                height: 240px;
+                left: 30px;
+                top: 40px;
+                }
+                .hero-title > p{
+                position: absolute;
+                left: 30px;
+                top: 320px;
+                }
+                
+                
+        .hero-img > img{
+            position: absolute;
+            width: 380px;
+            height: 363px;
+            left: 550px;
+            top: 283px;
+            }
+        .hero-title > .hero-btn{
+        position: absolute;
+        top: 450px;
+        left: 10px;
+            }
+       
+            .blogs-btn{
+        width: 930px;
+        height: 300px;   
+        position: absolute;
+        top: -80px;
+        left: -10px;
+        background: #161616;
+        border-radius: 20px;  
+            }
+               
+          
+              
+                .blog-container{
+                    width: 997;
+                    position: relative;
+                    left: 40px;
+                    top: 280px;
+                    display: grid;
+                    gap: 50px;
+                    grid-template-columns: repeat(2, 1fr);  
+                }
+        
+                .blogs-img > img{
+                    width: 400px;
+                } 
+        
+                .footer{
+                    width: 100%;
+                    height: 80vh;
+                    position: relative;
+                    left: 0px;
+                    top: 1100px;
+                    background: #161616;
+                    }
+                    
+                    .footer > h1{
+                    position: absolute;
+                    left: 420px;
+                    top: 100px;
+                    font-size: 40px;
+                    line-height: 60px;
+                    color: #FFFFFF;
+                    }
+                    
+                    .footer > hr{
+                    position: absolute;
+                    width: 600px;
+                    height: 0px;
+                    left: 160px;
+                    top: 200px;
+                    border: 1px solid rgba(255, 255, 255, 0.1);
+                    }
+                    
+                    .footer-second{
+                    position: absolute;
+                    left: 80px;
+                    top: 230px;
+        
+                    }
+                    
+                    .footer-second ul{
+                        display: flex;
+                        flex-direction: row;
+                        gap: 30px;
+                    
+                    }
+                    
+                    .media-icons{
+                        display: flex;
+                        gap: 80px;
+                        position: absolute;
+                        top: 60%;
+                        left: 35%;
+                    }
+                    .media-icons > a{
+                    text-decoration: none;
+                    color: #FFFFFF;
+                    }
+              
+                }
+
